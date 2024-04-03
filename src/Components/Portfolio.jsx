@@ -34,7 +34,7 @@ const projectList = [
     title: "Capchta Detection 🔍",
     description:
       "This Flask-based project secretly decodes image CAPTCHAs using OCR for text extraction from uploaded images.",
-    url: "https://aadocr.azurewebsites.net/",
+    url: "https://ocr.aadarshkr.me",
   },
   {
     title: "Sentiment Analyzer 📊",
