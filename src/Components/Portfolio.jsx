@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/about.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Capchta Detection 🔍",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This Flask-based project secretly decodes image CAPTCHAs using OCR for text extraction from uploaded images.",
+    url: "https://aadocr.azurewebsites.net/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Sentiment Analyzer 📊",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This project leverages LSTM models for sentiment analysis on primate-themed posts, shedding light on public perceptions of primates through streamlined analysis.",
+    url: "https://huggingface.co/spaces/Aad456334/Sentiment_Analyser",
   },
   {
-    title: "My Resume Site",
+    title: "Medical ChatBot 💬🩺",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A Flask-based Medical Chatbot, integrating NLP libraries like Langchain and Hugging Face Transformers, powered by Pinecone for efficient data storage and retrieval, providing an interactive platform for medical inquiries.",
+    url: "https://github.com/Azazel0203/Medical_ChatBot",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "MCQ GENERATOR 📝🔄",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A web app powered by OpenAI's language models to generate multiple-choice questions from PDF or text files, with customizable parameters and real-time complexity feedback.",
+    url: "https://mcqgenerator-aadarsh.streamlit.app/",
   },
 ];
 
